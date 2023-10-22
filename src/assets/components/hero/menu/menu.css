@@ -1,0 +1,59 @@
+.nav-style{
+     @apply
+     grid
+     grid-cols-3
+     justify-between
+     align-middle
+     h-[200px]
+     pt-7
+}
+.nav-style figure{
+     @apply
+     w-[130px]  
+}
+.menu{
+     @apply
+     flex
+     justify-center
+     align-middle     
+}
+.menu li{
+     @apply
+     py-3
+     px-5
+     capitalize 
+     cursor-pointer   
+}
+.menu li:nth-of-type(1){
+     @apply
+     text-blue-900
+     font-bold
+}
+.menu li:not(:first-child) {
+     @apply
+     text-zinc-600
+ }
+.soshial{
+     @apply
+     flex
+     align-middle
+     ml-[42%]
+     mt-1    
+}
+.soshial li{
+     @apply
+     py-3
+     px-4
+     capitalize
+     text-xl  
+     cursor-pointer
+}
+.soshial li:nth-of-type(2){
+     @apply
+     mt-[-5px]
+}
+.soshial li:nth-of-type(4){
+     @apply
+     text-blue-900
+     font-bold
+}

@@ -1,0 +1,77 @@
+
+.paret-world{
+     @apply
+     flex
+     justify-around
+     -mt-10
+     w-[92%]
+     mx-auto
+}
+.title{
+     @apply
+     font-bold
+     text-[7.6em]
+     capitalize
+     -mt-12
+     ml-1    
+}
+.icon-title{
+     @apply
+     mt-20
+     mx-4
+}
+.parent-textimg{
+     @apply
+     flex
+     align-middle
+}
+.texticon{
+     @apply
+     flex
+}
+.title-caption{
+     @apply
+     p-2
+}
+.title-caption p:nth-of-type(1){
+     @apply
+     capitalize
+     text-blue-800
+     font-bold
+}
+.title-caption p:nth-of-type(2){
+     @apply
+     capitalize
+    text-[#a0a1a2]
+    w-[87%]
+}
+
+.box{
+     @apply
+     flex
+     align-middle
+     justify-between
+     text-2xl
+     w-[250px]
+     h-[150px]
+     underline
+     py-[2.3em]
+     px-[1em]
+}
+
+.box-blue{
+     @apply
+     bg-[#08188f]
+     text-white
+}
+
+.box-brown{
+     @apply
+     bg-[#be7c4d]
+     text-black
+}
+
+.box p{
+     @apply
+     cursor-pointer
+}

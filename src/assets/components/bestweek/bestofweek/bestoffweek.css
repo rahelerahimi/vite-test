@@ -1,0 +1,122 @@
+.parent-best-week {
+  @apply 
+     border
+     relative
+     mx-[1.3em];
+}
+.top-off {
+  @apply 
+     absolute
+     top-0
+     right-3
+     flex
+     flex-col
+     border
+     p-2
+     text-[#08188f];
+}
+.top-off span:nth-of-type(2) {
+  @apply 
+     font-bold;
+}
+.flex-best-week {
+  @apply 
+     grid
+     grid-cols-2
+     gap-2
+     mr-[15%]
+     py-5
+     pl-5;
+}
+.flex-best-week img {
+  @apply 
+     h-[440px]
+     mt-1;
+}
+.parent-text-bestweek {
+  @apply 
+     mt-[5em]
+     capitalize;
+}
+.small-title {
+  @apply
+     text-[#08188f]
+      font-bold;
+}
+.text-bestweek {
+  @apply 
+     font-bold
+     text-2xl
+     w-[100%]
+     my-2;
+}
+.parent-price {
+  @apply 
+  font-bold;
+}
+.parent-price span:nth-of-type(1) {
+  @apply
+   text-zinc-500
+    line-through
+    mr-2;
+}
+.parent-progress {
+  @apply 
+  mt-6;
+}
+.text-progress {
+  @apply flex
+     justify-between
+     text-sm;
+}
+.progress-relative {
+  @apply 
+     relative 
+     border-gray-300
+     bg-white 
+     w-[100%]
+      h-3 
+     border 
+     my-2;
+}
+.progress-absolute {
+  @apply 
+     absolute 
+     top-0 
+     left-0 
+     h-full 
+     bg-[#08188f]
+     w-[30%];
+}
+.parent-timer {
+  @apply 
+     flex
+     justify-between
+     bg-white
+     my-2
+     w-[100%];
+}
+.text-blue-bold {
+  @apply 
+     text-[#08188f]
+     font-bold
+     text-lg;
+}
+.text-gray {
+  @apply
+    text-zinc-500
+     text-[0.8em]
+     lowercase;
+}
+.link {
+  @apply
+     flex
+     mt-10
+     text-xs
+     text-zinc-500;
+}
+.link p:nth-of-type(2) {
+  @apply 
+    mt-1
+    mx-1
+}

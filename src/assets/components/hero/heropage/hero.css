@@ -1,0 +1,7 @@
+.hero{
+     @apply
+     bg-[url('/images/hero.jpg')]
+     bg-no-repeat
+     bg-cover
+     h-[75vh]
+}
