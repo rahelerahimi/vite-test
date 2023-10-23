@@ -93,8 +93,10 @@
      flex
      justify-between
      bg-white
+     w-[100%]
      my-2
-     w-[100%];
+     py-4
+     px-6
 }
 .text-blue-bold {
   @apply 

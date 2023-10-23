@@ -1,0 +1,54 @@
+.parent-bu-iran {
+
+     @apply
+     flex  
+     justify-center 
+     mx-auto 
+     w-[93%] 
+     my-20
+     relative
+     capitalize
+     text-white
+     text-center
+     text-3xl
+}
+
+.absolute-bu{
+     @apply
+     absolute
+     top-[40%]
+     left-[32%]
+     bg-[white]
+     w-[170px]
+     h-[180px]
+     text-center
+     text-black
+     z-[100]
+     text-lg
+     rounded-full
+     flex
+     py-[4.2em]
+     px-[1.4em]
+}
+.pusdash{
+     @apply
+     absolute
+     top-0
+     left-0
+     w-[100%]
+     h-[100%]
+     bg-[black]/[0.4]
+
+}
+.text-img{
+     @apply
+     absolute
+     top-[50%]
+     left-[50%]
+     translate-x-[-50%]
+     translate-y-[-50%]
+     w-[65%]
+     shadow
+     shadow-[blue]
+     bg-blue-900
+}

@@ -1,0 +1,45 @@
+.parent-read-about{
+
+     @apply
+     flex
+     justify-center 
+     mx-auto 
+     w-[92%] 
+     capitalize
+     mb-[5em]
+}
+.title-read-about{
+     @apply
+     font-bold
+     text-[4.5em]
+     text-black
+
+}
+.box-read{
+     @apply
+     text-white
+     text-2xl
+     underline
+     bg-[#0b1b90]
+     flex
+     justify-between
+     py-[2.3em]
+     px-[1em]
+     w-[270px]
+     mr-[1.5em]
+     -mt-20
+     z-[100]
+}
+
+.parent-r {
+     @apply
+     flex-none 
+     w-[40%]
+     mt-10
+}
+.caption-right{
+     @apply
+     text-xl
+     text-[gray]
+     text-justify
+}

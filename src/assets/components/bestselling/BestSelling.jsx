@@ -1,17 +1,52 @@
-import React from 'react';
-import { dataProduct } from './data';
+
+
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import "swiper/css/pagination";
+import { Navigation } from 'swiper/modules';
+import { dataProduct } from '../tablatestproducts/productsitem/data';
 import { BsBasket3 } from 'react-icons/bs';
 import { AiFillStar,AiOutlineHeart } from 'react-icons/ai';
+import {BiSolidRightArrow,BiSolidLeftArrow} from "react-icons/bi";
 import { BiGitCompare} from 'react-icons/bi';
+import './bestselling.css'
 
-const ProductItem = () => {
+const BestSelling = () => {
   return (
-    <div>
-<div className='parent-product-item'>
-     {
+    <div  className='parent-best-selling  relative'>
+  <p  className='title-products'>best sellings</p>
+  <p className='text-products'> Lorem ipsum dolor sit amet.</p>
+
+<div  className='mt-10  '>
+
+<Swiper
+ navigation={{
+  nextEl:".next-button ",
+  prevEl:".prev-button ",
+  disabledClass: 'ss',
+
+}}
+
+ modules={[Navigation]}
+ spaceBetween={0}
+ slidesPerView={5}
+ className="mySwiper">
+
+<div  className='parent-slider-prev-next  absolute top-0 right-2   z-[1000]'>
+  <div className="next-button  ">
+    <BiSolidLeftArrow />
+   </div>
+<div className="prev-button  ">
+  <BiSolidRightArrow  />
+</div></div>
+
+  
+{
           dataProduct.map((item)=>{
                return(
-                    <div key={item.id} className='product-item '>
+                    <SwiperSlide key={item.id} className='product-item '>
                          <figure><img src={item.src} alt={item.name} />
                          <div className='flex-icon-hc'><span><AiOutlineHeart/></span> <span>{<BiGitCompare/>}</span> </div>
                          </figure>
@@ -32,13 +67,18 @@ const ProductItem = () => {
                     
                          </div>
                          </div>
-                    </div>
+                    </SwiperSlide>
                )
           })
      }
-    </div>
+
+
+ 
+      </Swiper>
+</div>
+
     </div>
   )
 }
 
-export default ProductItem
+export default BestSelling

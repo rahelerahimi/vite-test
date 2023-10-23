@@ -1,16 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .title-products{
      @apply
      text-black
      font-bold
      text-4xl
+     capitalize
    }
    .text-products{
      @apply
      text-gray-600
      text-2xl
+     my-2
    }
    .parent-product-item{
      @apply
@@ -22,4 +25,66 @@
      @apply
      border
      text-left
+     relative 
+}
+.flex-icon-hc{
+@apply
+flex  
+justify-between 
+absolute 
+w-[100%] 
+top-5 
+px-4  
+text-2xl 
+text-blue-700
+
+}
+.text-small{
+@apply
+text-gray-500 
+text-sm
+}
+.parent-star{
+@apply
+flex 
+justify-end 
+my-2
+}
+.text-star{
+@apply
+text-gray-500 
+text-sm
+}
+.star-icon{
+@apply
+
+text-amber-500 
+text-xl  
+mr-1
+}
+.flex-price-off{
+@apply
+flex 
+justify-between 
+align-middle
+}
+
+.off{
+@apply
+flex 
+justify-start 
+w-[50px] 
+h-[30px] 
+align-middle 
+px-2 
+text-center
+ border 
+ border-[#3a43c2]
+  text-blue-800
+}
+.price1 {
+@apply
+text-gray-500 
+text-sm mr-1
+
 }

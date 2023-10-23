@@ -1,5 +1,5 @@
 
-
+import { BiGitCompare} from 'react-icons/bi';
 export const dataProduct=[
 
      {
@@ -10,7 +10,9 @@ export const dataProduct=[
           price1:'',
           price2:'$490.51',
           star:'4.5',
-          off:''
+          off:'',
+          hasIconHeart:false,
+          hasIconCompare:false,
 
      },
      {
@@ -23,7 +25,10 @@ export const dataProduct=[
           iconHeart:'',
           iconCompare:'',
           star:'4.5',
-          off:'42%'
+          off:'42%',
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
      {
@@ -36,7 +41,10 @@ export const dataProduct=[
           iconHeart:'',
           iconCompare:'',
           star:'4.5',
-          off:''
+          off:'', 
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
      {
@@ -49,7 +57,10 @@ export const dataProduct=[
           iconHeart:'$2024245',
           iconCompare:'',
           star:'4.5',
-          off:'30%'
+          off:'30%',
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
      {
@@ -62,7 +73,10 @@ export const dataProduct=[
           iconHeart:'',
           iconCompare:'',
           star:'4.5',
-          off:''
+          off:'',
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
      {
@@ -75,7 +89,10 @@ export const dataProduct=[
           iconHeart:'',
           iconCompare:'',
           star:'4.5',
-          off:'10%'
+          off:'10%',
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
      {
@@ -88,7 +105,10 @@ export const dataProduct=[
           iconHeart:'',
           iconCompare:'',
           star:'4.5',
-          off:''
+          off:'',
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
      {
@@ -101,7 +121,10 @@ export const dataProduct=[
           iconHeart:'',
           iconCompare:'',
           star:'4.5',
-          off:'18%'
+          off:'18%',
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
      {
@@ -114,7 +137,10 @@ export const dataProduct=[
           iconHeart:'',
           iconCompare:'',
           star:'4.5',
-          off:''
+          off:'',
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
      {
@@ -127,7 +153,11 @@ export const dataProduct=[
           iconHeart:'',
           iconCompare:'',
           star:'4.5',
-          off:''
+          off:'',
+          iconCompare:'<BiGitCompare/>',
+          hasIconHeart:false,
+          hasIconCompare:false,
+
 
      },
 
