@@ -1,5 +1,4 @@
 .parent-blog{
-
      @apply
      w-[91%]
      mx-auto
@@ -11,29 +10,25 @@
      h-[200px]
 }
 .blog-item{
-
      @apply
      capitalize
      mt-5
      border
-
 }
 .parent-cap-blog{
-@apply
-p-5
-border-x
-border-b
+     @apply
+     p-5
+     border-x
+     border-b
 
 }
 .title-blog{
-@apply
-font-bold
-text-xl
-my-2
+     @apply
+     font-bold
+     text-xl
+     my-2
 }
 .text-blog{
-
      @apply
      text-[0.9em]
-
 }

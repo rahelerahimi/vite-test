@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./assets/components/hero/heropage/Hero";
 import Persian from "./assets/components/persian/persianThings/Persian";
+import Services from "./assets/components/service/Services";
 import AllbestWeek from "./assets/components/bestweek/allbestweek/AllbestWeek";
 import Tabproducts from "./assets/components/tablatestproducts/tabproducts/Tabproducts";
 import _Slider from "./assets/components/sliderimagetext/slider/_Slider";
@@ -16,6 +17,7 @@ function App() {
     <>
       <Hero />
       <Persian />
+      <Services/>
       <AllbestWeek />
       <Tabproducts />
       <_Slider />

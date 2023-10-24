@@ -16,22 +16,20 @@
 }
 .absulote-off div:nth-of-type(1){
      @apply
-    border
-    text-[#08188f]
-    flex
-    justify-center
-    align-middle
-    py-4
+     border
+     text-[#08188f]
+     flex
+     justify-center
+     align-middle
+     py-4
 }
 .absulote-off  p:nth-of-type(1){
-@apply
-py-2
-bg-[#08188f]
-text-center
-text-white
+     @apply
+     py-2
+   bg-[#08188f]
+     text-center
+   text-white
 }
-
-
 .absulote-off  p:nth-of-type(2){
      @apply
      text-center
@@ -40,61 +38,66 @@ text-white
      text-[0.7em]
      py-4
      }
-     .size{
-          @apply
-          w-[40px]
-          h-[50px]
+
+.size{
+     @apply
+     w-[40px]
+     h-[50px]
+
      
      }
-     .img-top{
-          @apply
-          mr-5
-          h-[200px]
+.img-top{
+     @apply
+     mr-5
+     h-[200px]
      }
-     .parent-text-product{
-          @apply
-          mt-24
-          w-[100%]
+.parent-text-product{
+      @apply
+     mt-24
+     w-[100%]
      }
 
-     .caption-product{
-          @apply
-          text-black
-          font-bold
-          text-xl
-          w-[100%]
+.caption-product{
+     @apply
+    text-black
+     font-bold
+     text-xl
+     w-[100%]
+     } 
+
+.price-product{
+     @apply
+    text-gray-600
+     my-1
      }
-     .price-product{
-          @apply
-          text-gray-600
-          my-1
+
+.buy-link-top{
+     @apply
+     flex
+     mt-7
+     ml-10
+     text-xs
+     text-zinc-500
      }
-     .buy-link-top{
-          @apply
-          flex
-          mt-7
-          ml-10
-          text-xs
-          text-zinc-500
-     }
-     .buy-link-top-icon{
-          @apply
+
+.buy-link-top-icon{
+     @apply
      mx-1
      mt-1
      }
 
-     .off-product-bottom {
-       @apply
-       absolute
-       top-0
-       left-5
-       border
-       text-center
-       text-[#08188f]
+.off-product-bottom {
+      @apply
+     absolute
+     top-0
+     left-5
+     border
+     text-center
+     text-[#08188f]
      py-3
 
      }
-  .buy-link-bottom{
+.buy-link-bottom{
      @apply
      text-zinc-500 
      flex 
@@ -103,8 +106,8 @@ text-white
      text-xs 
   }
 
-     .img-bottom{
-          @apply
-          w-[180px]  
-          ml-0
+.img-bottom{
+     @apply
+     w-[180px]  
+     ml-0
      }

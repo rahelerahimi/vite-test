@@ -1,12 +1,13 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import "./bestoffweek.css";
+
 const BestOffWeek = ({ progress }) => {
   return (
     <div className="parent-best-week">
       <div className="top-off">
         <span>up to</span>
-        <span>30%</span>
+        <span className="font-bold ">30%</span>
       </div>
 
       <div className="flex-best-week">
@@ -22,7 +23,7 @@ const BestOffWeek = ({ progress }) => {
             <span>$ 299</span>
             <span>$ 299</span>
           </div>
-          <div className="parent-progress">
+          <div className="mt-6">
             <div className="text-progress">
               <span>available: 7</span>
               <span>already sold: 18</span>

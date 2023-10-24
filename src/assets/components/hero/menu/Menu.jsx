@@ -2,8 +2,8 @@ import React from 'react';
 import { FiSearch } from 'react-icons/fi';
 import { BsBasket2Fill } from 'react-icons/bs';
 import {AiOutlineUser } from 'react-icons/ai';
+import './menu.css';
 
-import './menu.css'
 const Menu = () => {
   return (
     <div>
@@ -11,12 +11,14 @@ const Menu = () => {
      <nav className='nav-style'>
           <figure><img src="/images/logo.png" alt="logo" /></figure>
           <ul className='menu'>
+          
                <li>Home</li>
                <li>Gallery</li>
                <li>Category</li>
                <li>About</li>
                <li>Contact</li>
           </ul>
+
           <div>
           <ul className='soshial'>
                <li><FiSearch/></li>

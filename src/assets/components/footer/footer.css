@@ -1,5 +1,4 @@
 .footer{
-
      @apply
      bg-[url('/images/image-50.webp')]
      bg-no-repeat
@@ -11,14 +10,14 @@
     
 }
 .purdash-footer{
-@apply
-absolute
-top-0
-left-0
-bg-[black]/[0.7]
-w-[100%]
-h-[100%]
-z-[1]
+     @apply
+     absolute
+     top-0
+     left-0
+   bg-[black]/[0.7]
+     w-[100%]
+     h-[100%]
+     z-[1]
 }
 
 .grid-footer{
@@ -27,33 +26,23 @@ z-[1]
      grid
      grid-cols-5
     text-white
-    w-[91%]
-    mx-auto
-    z-[1]
-    capitalize
-
+     w-[91%]
+     mx-auto
+     z-[1]
+     capitalize
 }
 .logo-footer{
      @apply
      w-[150px]
      mr-[100px]
      translate-x-[-3.2em]
-
 }
 .text-footer{
      @apply
      w-[85%]
 }
-.fhone{
-     @apply
-     my-2
-}
-.soshial-footer{
-@apply
-flex
-}
-.soshial-footer li{
 
+.soshial-footer li{
      @apply
      mr-5
      p-1
@@ -62,23 +51,22 @@ flex
      rounded
      font-bold
 }
-/* ----------------------------------- */
+
 .pay img{
      @apply
-    rounded
-    mr-2
-
+     rounded
+     mr-2
 }
 
 .grid-footer form  input{
-@apply
- p-2
- w-[100%]
- h-[45px]
+     @apply
+     p-2
+     w-[100%]
+     h-[45px]
 }
 .btn-form{
      @apply
-      bg-blue-800
+    bg-blue-800
       absolute
       top-1
       right-1
@@ -88,8 +76,6 @@ flex
       p-3
      }
 
-
-/* ------------------------------------ */
 .title-footer{
      @apply
      font-bold

@@ -1,107 +1,94 @@
-
-.bg-slider{
-@apply
-relative
-bg-[url('/images/image-22.jpg')]
-bg-no-repeat
-bg-cover
- w-[100%]
- py-[4em]
- my-20
+.bg-slider {
+      @apply 
+      relative
+      bg-[url('/images/image-22.jpg')]
+      bg-no-repeat
+      bg-cover
+      w-[100%]
+      py-[4em]
+      my-20;
 }
-.pusdash-bg{
-@apply
-absolute
-top-0
-left-0
-bg-[#08188f]/[0.5]
-h-[100%]
-w-[100%]
-
+.pusdash-bg {
+      @apply 
+      absolute
+      top-0
+      left-0
+    bg-[#08188f]/[0.5]
+      h-[100%]
+      w-[100%];
 }
-.parentslider{
-@apply
-w-[70%]
-mx-auto
 
-
+.parentslider {
+      @apply 
+      w-[70%]
+      mx-auto;
 }
 .flex-text-img {
-@apply
-flex 
-justify-around 
-align-middle
-mb-6
-
+      @apply 
+      flex 
+      justify-around 
+      align-middle
+      mb-6;
 }
 
-.flex-text-img img{
-@apply
-w-[240px]
-h-[250px]
-rounded
-mt-4
+.flex-text-img img {
+      @apply 
+      w-[240px]
+      h-[250px]
+      rounded
+      mt-4;
 }
-.parent-text-slider{
-@apply
-flex  
-flex-col 
-justify-center 
-align-middle
-capitalize
-}
-
-.text-bold-slider{
-@apply
-text-5xl
-text-white
-w-[60%]
+.parent-text-slider {
+      @apply 
+      flex  
+      flex-col 
+      justify-center 
+      align-middle
+      capitalize;
 }
 
-.text-small-slider{
-@apply
-
-text-white
-w-[50%]
-my-4
-
+.text-bold-slider {
+       @apply 
+       text-5xl
+     text-white
+       w-[60%];
 }
-.btn-slider{
-@apply
 
-bg-white
-w-[200px]
-h-[50px]
-text-[#08188f]
-font-bold
-my-2
-
+.text-small-slider {
+       @apply
+      text-white
+        w-[50%]
+        my-4;
+}
+.btn-slider {
+       @apply 
+      bg-white
+        w-[200px]
+        h-[50px]
+      text-[#08188f]
+        font-bold
+        my-2;
 }
 .parent-slider-prev-next {
-     @apply
-     flex  
-     justify-end
-     align-middle
+      @apply 
+      flex  
+      justify-end
+      align-middle
       text-xl
       mt-2
       relative
-      z-[100]
-     
+      z-[100];
 }
 
-.icon-prev-next-slider{
-
-     @apply
-     bg-white
+.icon-prev-next-slider {
+     @apply 
+    bg-white
      font-bold
      cursor-pointer
      border
-     p-2
-
-
+     p-2;
 }
 
-.ss{
-     @apply
-     text-gray-400
+.ss {
+  @apply text-gray-400;
 }

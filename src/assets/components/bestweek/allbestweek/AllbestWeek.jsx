@@ -2,6 +2,7 @@ import React from 'react'
 import Product from '../product/Product';
 import BestOffWeek from '../bestofweek/BestOffWeek';
 import Off from '../off/Off';
+
 const AllbestWeek = () => {
   return (
  

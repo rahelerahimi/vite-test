@@ -106,3 +106,8 @@ text-center
 text-sm 
 mr-1;
 }
+
+.ss{
+  @apply
+  text-slate-500
+}

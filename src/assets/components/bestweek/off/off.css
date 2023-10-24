@@ -1,7 +1,6 @@
 .parent-off{
      @apply
-     relative
-    
+     relative   
 }
 .parent-off img{
      @apply

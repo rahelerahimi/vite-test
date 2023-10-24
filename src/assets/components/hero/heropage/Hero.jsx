@@ -1,10 +1,10 @@
 import React from 'react'
 import Menu from '../menu/Menu'
-import './hero.css'
+
 const Hero = () => {
   return (
     <div >
-     <div className='hero'>
+     <div className='bg-[url(/images/hero.jpg)] bg-no-repeat bg-cover h-[75vh] '>
      <Menu/>
      </div>
     </div>

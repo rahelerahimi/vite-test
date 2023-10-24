@@ -15,10 +15,6 @@
      p-2
      text-[#08188f];
 }
-.top-off span:nth-of-type(2) {
-  @apply 
-     font-bold;
-}
 .flex-best-week {
   @apply 
      grid
@@ -41,7 +37,7 @@
 .small-title {
   @apply
      text-[#08188f]
-      font-bold;
+     font-bold;
 }
 .text-bestweek {
   @apply 
@@ -52,18 +48,15 @@
 }
 .parent-price {
   @apply 
-  font-bold;
+     font-bold;
 }
 .parent-price span:nth-of-type(1) {
   @apply
-   text-zinc-500
-    line-through
-    mr-2;
+     text-zinc-500
+     line-through
+     mr-2;
 }
-.parent-progress {
-  @apply 
-  mt-6;
-}
+
 .text-progress {
   @apply flex
      justify-between
@@ -119,6 +112,6 @@
 }
 .link p:nth-of-type(2) {
   @apply 
-    mt-1
-    mx-1
+      mt-1
+      mx-1
 }

@@ -1,5 +1,4 @@
 
-import { BiGitCompare} from 'react-icons/bi';
 export const dataProduct=[
 
      {
