@@ -1,5 +1,5 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -9,6 +9,7 @@ import { dataSliderItem } from './dataSlider'
 import { MdArrowForwardIos, MdArrowBackIosNew } from 'react-icons/md'
 
 const _Slider = () => {
+
   return (
     <>
       <div className='bg-slider'>
@@ -16,9 +17,9 @@ const _Slider = () => {
         <div className='parentslider  '>
           <Swiper
             navigation={{
-              nextEl: '.next-button ',
-              prevEl: '.prev-button ',
-              disabledClass: 'ss'
+              nextEl: '.slider1-next-button ',
+              prevEl: '.slider1-prev-button ',
+              disabledClass: 'ss1'
             }}
             pagination={{
               clickable: true
@@ -30,7 +31,7 @@ const _Slider = () => {
           >
             {dataSliderItem.map(item => {
               return (
-                <SwiperSlide key={item.id} className='flex-text-img '>
+                <SwiperSlide key={item.id} className='flex-text-img   mb-24'>
                   <div className=' parent-text-slider '>
                     <p className='text-bold-slider'>{item.text1}</p>
                     <p className='text-small-slider'>{item.text2}</p>
@@ -45,15 +46,16 @@ const _Slider = () => {
               )
             })}
 
-            <div className='parent-slider-prev-next'>
-              <div className='next-button icon-prev-next-slider '>
+           
+          </Swiper>
+          <div className='parent-slider-prev-next  translate-x-[14.5%] -mt-12'>
+              <div className='slider1-next-button icon-prev-next-slider '>
                 <MdArrowBackIosNew />
               </div>
-              <div className='prev-button  icon-prev-next-slider'>
+              <div className='slider1-prev-button icon-prev-next-slider'>
                 <MdArrowForwardIos />
               </div>
             </div>
-          </Swiper>
         </div>
       </div>
     </>

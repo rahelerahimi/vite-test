@@ -14,10 +14,18 @@ const Blog = () => {
       <p className='title-products'>blog</p>
       <p className='text-products'>read more on blog</p>
       <div>
+      <div className='parent-slider-prev-next  -top-7  '>
+            <div className='slider4-next-button  '>
+              <BiSolidLeftArrow />
+            </div>
+            <div className='slider4-prev-button '>
+              <BiSolidRightArrow />
+            </div>
+          </div>
         <Swiper
           navigation={{
-            nextEl: '.next-button ',
-            prevEl: '.prev-button ',
+            nextEl: '.slider4-next-button ',
+            prevEl: '.slider4-prev-button ',
             disabledClass: 'ss'
           }}
           modules={[Navigation]}
@@ -40,14 +48,7 @@ const Blog = () => {
             )
           })}
 
-          <div className='parent-slider-prev-next  '>
-            <div className='next-button  '>
-              <BiSolidLeftArrow />
-            </div>
-            <div className='prev-button  '>
-              <BiSolidRightArrow />
-            </div>
-          </div>
+        
         </Swiper>
       </div>
     </div>

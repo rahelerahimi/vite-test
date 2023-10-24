@@ -42,8 +42,16 @@ const ProductItemReverse = () => {
                 <div className='flex-price-off'>
                   <span className={item.hasOff ? 'off' : ' '}>{item.off}</span>
                   <div>
-                    <span className='price1 '>{item.price1}</span>
-                    <span className=' font-bold'>{item.price2}</span>
+                  <span className={item.hasOff ? 'price1' : 'price2 '}>
+                        {item.price1
+                          .toString()
+                          .replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+                      </span>
+                      <span className='price2 '>
+                        {item.price2
+                          .toString()
+                          .replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+                      </span>
                   </div>
                 </div>
               </div>

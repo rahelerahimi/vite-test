@@ -6,6 +6,7 @@ import AllbestWeek from "./assets/components/bestweek/allbestweek/AllbestWeek";
 import Tabproducts from "./assets/components/tablatestproducts/tabproducts/Tabproducts";
 import _Slider from "./assets/components/sliderimagetext/slider/_Slider";
 import BestSelling from "./assets/components/bestselling/BestSelling";
+import BestSelling2 from "./assets/components/bestselling 2/BestSelling";
 import BeautifulIran from "./assets/components/beautifuliran/BeautifulIran";
 import ReadAbout from "./assets/components/readabout/ReadAbout";
 import Blog from "./assets/components/blog/Blog";
@@ -24,7 +25,7 @@ function App() {
       <BestSelling />
       <BeautifulIran />
       <ReadAbout />
-      <BestSelling />
+      <BestSelling2 />
       <Blog />
       <Footer />
     </>

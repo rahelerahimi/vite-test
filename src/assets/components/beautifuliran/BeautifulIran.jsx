@@ -15,7 +15,10 @@ const BeautifulIran = () => {
               className='w-[100%]  h-[290px]'
             />
             <div className='pusdash'></div>
-            <p className='text-img'>the name yazd</p>
+
+            <p className='text-img after:absolute  after:bottom-[20%] after:left-[2em] after:h-[10px] after:w-[65%] after:bg-[blue] after:z-[-1]'>
+              the name yazd
+            </p>
           </figure>
         </div>
 
@@ -27,7 +30,9 @@ const BeautifulIran = () => {
               alt=''
             />
             <div className='pusdash'></div>
-            <p className='text-img '>from south gambroon</p>
+            <p className='text-img after:absolute  after:bottom-[20%] after:left-[8px] after:h-[10px] after:w-[95%] after:bg-[blue] after:z-[-1] '>
+              from south gambroon
+            </p>
           </figure>
         </div>
       </div>
@@ -36,7 +41,9 @@ const BeautifulIran = () => {
         <figure className='relative'>
           <img src='/images/image-26.jpg' alt='' className='w-[100%]  ' />
           <div className='pusdash'></div>
-          <p className='text-img'>the name of this house shiraz</p>
+          <p className='text-img after:absolute  after:bottom-[20%] after:left-[0.9em] after:h-[10px] after:w-[90%] after:bg-[blue] after:z-[-1]'>
+            the name of this house shiraz
+          </p>
         </figure>
       </div>
     </div>

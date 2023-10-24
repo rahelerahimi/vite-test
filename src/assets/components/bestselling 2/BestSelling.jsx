@@ -10,7 +10,7 @@ import { AiFillStar, AiOutlineHeart } from 'react-icons/ai'
 import { BiSolidRightArrow, BiSolidLeftArrow } from 'react-icons/bi'
 import { FaExpandArrowsAlt } from 'react-icons/fa'
 
-const BestSelling = () => {
+const BestSelling2 = () => {
   return (
     <div className=' w-[91%]  mx-auto relative'>
       <p className='title-products'>best sellings</p>
@@ -18,18 +18,18 @@ const BestSelling = () => {
 
       <div className='mt-10 '>
         <div className='parent-slider-prev-next  -top-14 '>
-          <div className='slider2-next-button  '>
+          <div className='slider3-next-button  '>
             <BiSolidLeftArrow />
           </div>
-          <div className='slider2-prev-button  '>
+          <div className='slider3-prev-button  '>
             <BiSolidRightArrow />
           </div>
         </div>
 
         <Swiper
           navigation={{
-            nextEl: '.slider2-next-button ',
-            prevEl: '.slider2-prev-button ',
+            nextEl: '.slider3-next-button ',
+            prevEl: '.slider3-prev-button ',
             disabledClass: 'ss'
           }}
           modules={[Navigation]}
@@ -78,7 +78,7 @@ const BestSelling = () => {
                           .toString()
                           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
                       </span>
-                      <span className='price2' >
+                      <span className='price2 '>
                         {item.price2
                           .toString()
                           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
@@ -95,4 +95,4 @@ const BestSelling = () => {
   )
 }
 
-export default BestSelling
+export default BestSelling2

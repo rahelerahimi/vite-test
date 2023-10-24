@@ -3,111 +3,137 @@
 @tailwind utilities;
 
 .title-products {
-  @apply text-black
+    @apply 
+    text-black
      font-bold
      text-4xl
      capitalize;
 }
 .text-products {
-  @apply text-gray-600
-     text-2xl
-     my-2;
+      @apply 
+      text-gray-600
+       text-2xl
+       my-2;
 }
 .parent-product-item {
-  @apply grid
-    grid-cols-5
-    mt-10;
+       @apply 
+       grid
+       grid-cols-5
+       mt-10;
 }
 .product-item {
-  @apply border
-     text-left
-     relative 
-     border-collapse;
+       @apply 
+       border
+       text-left
+       relative 
+       border-collapse;
 }
 .product-item img {
-  @apply w-[100%]
-  h-[200px];
+       @apply 
+       w-[100%]
+       h-[200px];
 }
 
 .product-item:hover {
-  @apply bg-white
-duration-700;
+       @apply 
+      bg-white
+       duration-700;
 }
 .flex-icon-hc {
-  @apply justify-between 
-absolute 
-w-[100%] 
-top-5 
-px-4  
-text-2xl 
-text-[#08188f]
-hidden;
+       @apply 
+       justify-between 
+       absolute 
+       w-[100%] 
+       top-5 
+       px-4  
+       text-2xl 
+     text-[#08188f]
+       hidden;
 }
 
 .flex-icon-hc span {
-  @apply cursor-pointer;
+       @apply 
+       cursor-pointer;
 }
 .product-item:hover .flex-icon-hc {
-  @apply flex
-  duration-1000;
+       @apply 
+       flex
+       duration-1000;
 }
 .product-item:hover .basket {
-  @apply text-[#08188f]
-  duration-700;
+       @apply 
+       text-[#08188f]
+        duration-700;
 }
 .text-small {
-  @apply text-gray-500 
-text-sm;
+       @apply 
+       text-gray-500 
+       text-sm;
 }
 .parent-star {
-  @apply flex 
-justify-end 
-my-2;
+       @apply 
+       flex 
+       justify-end 
+       my-2;
 }
 .parent-star-l {
-  @apply flex 
-  justify-start 
-  my-2;
+       @apply flex 
+       justify-start 
+       my-2;
 }
 .text-star {
-  @apply text-gray-500 
-text-sm;
+       @apply 
+       text-gray-500 
+        text-sm;
 }
 .star-icon {
-  @apply text-yellow-400
-text-xl  
-mr-1;
+       @apply 
+       text-yellow-400
+       text-xl  
+       mr-1;
 }
 .flex-price-off {
-  @apply flex 
-justify-between 
-align-middle;
+       @apply 
+       flex 
+       justify-between 
+       align-middle;
 }
 
 .off {
-  @apply flex 
-justify-start 
-w-[50px] 
-h-[30px] 
-align-middle 
-px-2 
-text-center
- border 
- border-[#08188f]
-  text-[#08188f];
+       @apply 
+       flex 
+       justify-start 
+       w-[50px] 
+       h-[30px] 
+       align-middle 
+       px-2 
+       text-center
+       border 
+     border-[#08188f]
+     text-[#08188f];
 }
 .product-item:hover .off {
-  @apply bg-[#08188f]
-  text-white
-  duration-700;
+       @apply 
+       bg-[#08188f]
+      text-white
+        duration-700;
 }
 .price1 {
-  @apply text-gray-500 
-text-sm 
-mr-1;
+       @apply 
+       text-gray-500 
+      
+       line-through
+        text-sm 
+        mr-1;
 }
-
+.price2 {
+       @apply 
+       text-black
+        text-sm 
+        font-bold
+       
+}
 .ss{
-  @apply
-  text-slate-500
+       @apply
+     text-slate-500
 }
