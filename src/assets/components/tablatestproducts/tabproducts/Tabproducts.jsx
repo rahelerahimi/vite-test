@@ -2,6 +2,7 @@ import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import ProductItem from '../productsitem/ProductItem';
+import ProductItemReverse from '../productsitemreverse/ProductItemReverse';
 import './tabproducts.css'
 
 const Tabproducts = () => {
@@ -29,19 +30,19 @@ const Tabproducts = () => {
      <ProductItem/>
     </TabPanel>
     <TabPanel>
-    <ProductItem/>
+    <ProductItemReverse/>
     </TabPanel>
     <TabPanel>
     <ProductItem/>
     </TabPanel>
     <TabPanel>
-    <ProductItem/>
+    <ProductItemReverse/>
     </TabPanel>
     <TabPanel>
     <ProductItem/>
     </TabPanel>
     <TabPanel>
-    <ProductItem/>
+    <ProductItemReverse/>
     </TabPanel>
   </Tabs>
      </div>

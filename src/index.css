@@ -2,108 +2,90 @@
 @tailwind components;
 @tailwind utilities;
 
-.title-products{
-     @apply
-     text-black
+.title-products {
+  @apply text-black
      font-bold
      text-4xl
-     capitalize
-   }
-   .text-products{
-     @apply
-     text-gray-600
-     text-2xl
-     my-2
-   }
-   .parent-product-item{
-     @apply
-    grid
-    grid-cols-5
-    mt-10
+     capitalize;
 }
-.product-item{
-     @apply
-     border
+.text-products {
+  @apply text-gray-600
+     text-2xl
+     my-2;
+}
+.parent-product-item {
+  @apply grid
+    grid-cols-5
+    mt-10;
+}
+.product-item {
+  @apply border
      text-left
      relative 
-     border-collapse
+     border-collapse;
 }
-.product-item img{
-  @apply
-  w-[100%]
-  h-[200px]
+.product-item img {
+  @apply w-[100%]
+  h-[200px];
 }
 
-.product-item:hover{
-  @apply
-bg-white
-duration-700
+.product-item:hover {
+  @apply bg-white
+duration-700;
 }
-.flex-icon-hc{
-@apply 
-justify-between 
+.flex-icon-hc {
+  @apply justify-between 
 absolute 
 w-[100%] 
 top-5 
 px-4  
 text-2xl 
 text-[#08188f]
-hidden
+hidden;
 }
 
-.flex-icon-hc span{
-  @apply
-  cursor-pointer
+.flex-icon-hc span {
+  @apply cursor-pointer;
 }
-.product-item:hover .flex-icon-hc{
-  @apply
-  flex
-  duration-1000
+.product-item:hover .flex-icon-hc {
+  @apply flex
+  duration-1000;
 }
-.product-item:hover .basket{
-  @apply
-  text-[#08188f]
-  duration-700
+.product-item:hover .basket {
+  @apply text-[#08188f]
+  duration-700;
 }
-.text-small{
-@apply
-text-gray-500 
-text-sm
+.text-small {
+  @apply text-gray-500 
+text-sm;
 }
-.parent-star{
-@apply
-flex 
+.parent-star {
+  @apply flex 
 justify-end 
-my-2
+my-2;
 }
-.parent-star-l{
-  @apply
-  flex 
+.parent-star-l {
+  @apply flex 
   justify-start 
-  my-2
-  }
-.text-star{
-@apply
-text-gray-500 
-text-sm
+  my-2;
 }
-.star-icon{
-@apply
-
-text-yellow-400
+.text-star {
+  @apply text-gray-500 
+text-sm;
+}
+.star-icon {
+  @apply text-yellow-400
 text-xl  
-mr-1
+mr-1;
 }
-.flex-price-off{
-@apply
-flex 
+.flex-price-off {
+  @apply flex 
 justify-between 
-align-middle
+align-middle;
 }
 
-.off{
-@apply
-flex 
+.off {
+  @apply flex 
 justify-start 
 w-[50px] 
 h-[30px] 
@@ -112,17 +94,15 @@ px-2
 text-center
  border 
  border-[#08188f]
-  text-[#08188f]
+  text-[#08188f];
 }
-.product-item:hover .off{
-  @apply
-  bg-[#08188f]
+.product-item:hover .off {
+  @apply bg-[#08188f]
   text-white
-  duration-700
+  duration-700;
 }
 .price1 {
-@apply
-text-gray-500 
-text-sm mr-1
-
+  @apply text-gray-500 
+text-sm 
+mr-1;
 }

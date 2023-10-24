@@ -14,6 +14,9 @@ import { FaExpandArrowsAlt} from 'react-icons/fa';
 import './bestselling.css'
 
 const BestSelling = () => {
+
+
+
   return (
     <div  className='parent-best-selling  relative'>
   <p  className='title-products'>best sellings</p>
@@ -44,6 +47,7 @@ const BestSelling = () => {
   
 {
           dataProduct.map((item)=>{
+          
                return(
                     <SwiperSlide key={item.id} className='product-item '>
                          <figure><img src={item.src} alt={item.name}  className='h-[100%]'/>
@@ -69,7 +73,11 @@ const BestSelling = () => {
                           </div>
                          <div className='flex-price-off flex-row-reverse'>
                          <span   className={item.hasOff ? "off" : " "}>{item.off}</span>
-                         <div ><span className='price1 '>{item.price1}</span><span className=' font-bold'>{item.price2}</span></div>
+
+                         <div >
+                         <span className=' font-bold mr-1'>{item.price1}</span>
+                          <span className='price1 '>{item.price2}</span>
+                         </div>
                     
                          </div>
                          </div>

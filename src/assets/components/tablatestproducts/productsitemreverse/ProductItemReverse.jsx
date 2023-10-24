@@ -1,15 +1,15 @@
 import React from 'react';
-import { dataProduct } from './data';
+import { dataProduct } from '../productsitem/data';
 import { BsBasket3 } from 'react-icons/bs';
 import { AiFillStar,AiOutlineHeart } from 'react-icons/ai';
 import { FaExpandArrowsAlt} from 'react-icons/fa';
 
-const ProductItem = () => {
+const ProductItemReverse = () => {
   return (
     <div>
 <div className='parent-product-item'>
      {
-          dataProduct.map((item)=>{
+          dataProduct.slice(0,5).map((item)=>{
                return(
                     <div key={item.id} className='product-item '>
                          <figure><img src={item.src} alt={item.name} />
@@ -46,4 +46,4 @@ const ProductItem = () => {
   )
 }
 
-export default ProductItem
+export default ProductItemReverse;

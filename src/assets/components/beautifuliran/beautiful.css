@@ -1,16 +1,15 @@
 .parent-bu-iran {
-
      @apply
      flex  
      justify-center 
      mx-auto 
-     w-[93%] 
+     w-[91%] 
      my-20
      relative
      capitalize
      text-white
      text-center
-     text-3xl
+   
 }
 
 .absolute-bu{
@@ -28,7 +27,7 @@
      rounded-full
      flex
      py-[4.2em]
-     px-[1.4em]
+     px-[1.6em]
 }
 .pusdash{
      @apply
@@ -49,6 +48,6 @@
      translate-y-[-50%]
      w-[65%]
      shadow
-     shadow-[blue]
      bg-blue-900
+     text-2xl
 }
