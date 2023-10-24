@@ -72,10 +72,10 @@
 .box-small-icon{
      @apply
      mx-auto
-     text-2xl
+     text-[1.7em]
      text-center
      text-[#0b1b90]
-     bg-[#f0f1f1]
+     bg-white
      rounded-full
       p-[1.2em]
       mr-2

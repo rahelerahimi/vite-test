@@ -1,7 +1,9 @@
 import React from 'react'
 import { PiAirplaneTilt } from 'react-icons/pi';
 import { FaCaravan} from 'react-icons/fa';
-import { AiOutlineUser} from 'react-icons/ai';
+import { LuCircleDollarSign} from 'react-icons/lu';
+import { TbUsersGroup} from 'react-icons/tb';
+import { MdOutlineCropRotate} from 'react-icons/md';
 
 
 import './persianicon.css'
@@ -19,7 +21,7 @@ const PersianIcon = () => {
 
 <div className='parent-box-small'>
   <div className='box-small'>
-  <p className='box-small-icon'><AiOutlineUser/></p>
+  <p className='box-small-icon'><LuCircleDollarSign/></p>
   <div>
     <p className='box-small-title'>7-days refund</p>
     <p className='Services-text'>refund takes a 7-days in maximum</p>
@@ -27,7 +29,7 @@ const PersianIcon = () => {
   </div>
 
   <div className='box-small'>
-  <p className='box-small-icon'><AiOutlineUser/></p>
+  <p className='box-small-icon'><TbUsersGroup/></p>
   <div>
     <p className='box-small-title'>24/7 support</p>
     <p className='Services-text'>can contact  always as you want</p>
@@ -37,7 +39,7 @@ const PersianIcon = () => {
 
 
 <div className='Services-box2'>
-<p className='sercices-icon2'><AiOutlineUser/></p>
+<p className='sercices-icon2'><MdOutlineCropRotate/></p>
   <p className='Services-title'>crypto peyment</p>
   <p className='Services-text'>ability  to pay with crypto currency</p>
 </div>

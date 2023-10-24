@@ -16,11 +16,13 @@
      capitalize
      mt-5
      border
-     border-[silver]
+
 }
 .parent-cap-blog{
 @apply
 p-5
+border-x
+border-b
 
 }
 .title-blog{

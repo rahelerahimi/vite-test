@@ -1,5 +1,9 @@
 import React from 'react'
-import {AiOutlineUser } from 'react-icons/ai';
+import {BiSolidCircle } from 'react-icons/bi';
+import {FaArrowRight} from 'react-icons/fa';
+import {BsPlayFill} from 'react-icons/bs';
+import {GrLinkedinOption} from 'react-icons/gr';
+
 import './footer.css'
 const Footer = () => {
   return (
@@ -12,9 +16,9 @@ const Footer = () => {
                <p  className='text-footer'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, error.</p>
                <p className='fhone'>+1 994 556 4123</p>
              <ul className=' soshial-footer'>
-               <li><AiOutlineUser /></li>
-               <li><AiOutlineUser /></li>
-               <li><AiOutlineUser /></li>
+               <li><BiSolidCircle /></li>
+               <li><BsPlayFill /></li>
+               <li><GrLinkedinOption /></li>
              </ul>
           </div>
 
@@ -64,7 +68,7 @@ const Footer = () => {
                <p className=' mt-5'>join us to know news!</p>
                <form action=""  className=' relative mt-5'>
                     <input type="text" name="" id=""  placeholder='email'/>
-                    <button className='btn-form'><AiOutlineUser /></button>
+                    <button className='btn-form'><FaArrowRight/></button>
                </form>
           </div>
       </div>

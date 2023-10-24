@@ -26,18 +26,44 @@
      border
      text-left
      relative 
+     border-collapse
+}
+.product-item img{
+  @apply
+  w-[100%]
+  h-[200px]
+}
+
+.product-item:hover{
+  @apply
+bg-white
+duration-700
 }
 .flex-icon-hc{
-@apply
-flex  
+@apply 
 justify-between 
 absolute 
 w-[100%] 
 top-5 
 px-4  
 text-2xl 
-text-blue-700
+text-[#08188f]
+hidden
+}
 
+.flex-icon-hc span{
+  @apply
+  cursor-pointer
+}
+.product-item:hover .flex-icon-hc{
+  @apply
+  flex
+  duration-1000
+}
+.product-item:hover .basket{
+  @apply
+  text-[#08188f]
+  duration-700
 }
 .text-small{
 @apply
@@ -50,6 +76,12 @@ flex
 justify-end 
 my-2
 }
+.parent-star-l{
+  @apply
+  flex 
+  justify-start 
+  my-2
+  }
 .text-star{
 @apply
 text-gray-500 
@@ -58,7 +90,7 @@ text-sm
 .star-icon{
 @apply
 
-text-amber-500 
+text-yellow-400
 text-xl  
 mr-1
 }
@@ -79,8 +111,14 @@ align-middle
 px-2 
 text-center
  border 
- border-[#3a43c2]
-  text-blue-800
+ border-[#08188f]
+  text-[#08188f]
+}
+.product-item:hover .off{
+  @apply
+  bg-[#08188f]
+  text-white
+  duration-700
 }
 .price1 {
 @apply

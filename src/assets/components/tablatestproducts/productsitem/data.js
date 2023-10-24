@@ -11,8 +11,7 @@ export const dataProduct=[
           price2:'$490.51',
           star:'4.5',
           off:'',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:false,
 
      },
      {
@@ -26,8 +25,8 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'42%',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:true,
+      
 
 
      },
@@ -42,8 +41,7 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'', 
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:false,
 
 
      },
@@ -58,8 +56,7 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'30%',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:true,
 
 
      },
@@ -74,8 +71,7 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:false,
 
 
      },
@@ -90,8 +86,7 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'10%',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:true,
 
 
      },
@@ -106,8 +101,7 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:false,
 
 
      },
@@ -122,8 +116,7 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'18%',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:true,
 
 
      },
@@ -138,8 +131,7 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:false,
 
 
      },
@@ -154,9 +146,7 @@ export const dataProduct=[
           iconCompare:'',
           star:'4.5',
           off:'',
-          iconCompare:'<BiGitCompare/>',
-          hasIconHeart:false,
-          hasIconCompare:false,
+          hasOff:false,
 
 
      },

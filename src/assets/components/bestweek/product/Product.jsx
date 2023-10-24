@@ -1,6 +1,6 @@
 import React from 'react'
 import {BsArrowRight } from 'react-icons/bs';
-import {RiPriceTagFill } from 'react-icons/ri';
+import {BsFillBookmarkFill} from 'react-icons/bs';
 
 import './product.css'
 const Product = () => {
@@ -10,7 +10,7 @@ const Product = () => {
       <div className=' product '>
 
         <div className='absulote-off'>
-        <div className='size'><RiPriceTagFill/></div>
+        <div className='size'><BsFillBookmarkFill/></div>
         <div><p className='size'>25%</p><p className='size'>1 day</p></div>
         </div>
 

@@ -19,6 +19,7 @@
      @apply
      mt-20
      mx-4
+     text-2xl
 }
 .parent-textimg{
      @apply

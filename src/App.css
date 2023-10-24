@@ -34,9 +34,10 @@
 }
 
 
-.direction{
+.direction-r{
   direction:rtl;
 }
+
 .react-tabs__tab {
   border: 1px solid silver;
   margin: 0 0.5em;

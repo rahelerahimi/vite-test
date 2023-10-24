@@ -1,6 +1,6 @@
 import React from 'react'
 import {PiArrowLineUpRightLight } from 'react-icons/pi';
-import {ImArrowUpRight2 } from 'react-icons/im';
+import {MdStars  } from 'react-icons/md';
 
 import './Persianworld.css'
 const PersianWorld = () => {
@@ -11,7 +11,7 @@ const PersianWorld = () => {
   <div>
 <h1 className='title shadow-text'>persian things</h1>
 <div className='parent-textimg'>
-      <div className=' texticon'><p className='title'>world</p><span className='icon-title'><ImArrowUpRight2 /></span></div>
+      <div className=' texticon'><p className='title'>world</p><span className='icon-title'><MdStars /></span></div>
 
       <div  className='title-caption'>
         <p >a little about us</p>

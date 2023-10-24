@@ -11,7 +11,7 @@ const Tabproducts = () => {
      <p className='title-products'>latest products</p>
      <p className='text-products'>Lorem ipsum dolor sit amet consectetur </p>
 
-     <div className='parent-tab direction'>
+     <div className='parent-tab direction-r'>
 
      <Tabs>
           <div className='tablist'>
