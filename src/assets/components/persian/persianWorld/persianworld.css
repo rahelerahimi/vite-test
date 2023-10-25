@@ -6,13 +6,14 @@
      -mt-10
      w-[92%]
      mx-auto
+
 }
 .title{
      @apply
      font-bold
      text-[7.6em]
      capitalize
-     -mt-12
+     -mt-14
      ml-1    
 }
 .icon-title{

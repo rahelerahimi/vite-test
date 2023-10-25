@@ -15,13 +15,13 @@ const BestOffWeek = ({ progress }) => {
           <img src="/images/image-02.png" alt="image-best-week" />
         </figure>
         <div className="parent-text-bestweek">
-          <p className="small-title">best fo the week</p>
+          <p className="small-title">best of the week</p>
           <p className="text-bestweek">
             our colorful bowls are on discount this weekend!
           </p>
           <div className="parent-price">
             <span>$ 299</span>
-            <span>$ 299</span>
+            <span className="font-bold">$ 299</span>
           </div>
           <div className="mt-6">
             <div className="text-progress">
@@ -53,7 +53,7 @@ const BestOffWeek = ({ progress }) => {
             </div>
 
             <div className="link">
-              <p>dont miss discount</p>
+              <a href=""><p>dont miss discount</p></a>
               <p>
                 <BsArrowRight />
               </p>

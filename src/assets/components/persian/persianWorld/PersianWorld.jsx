@@ -11,7 +11,7 @@ const PersianWorld = () => {
         <div>
           <h1 className='title shadow-text'>persian things</h1>
           <div className='parent-textimg'>
-            <div className='texticon'><p className='title'>world</p><span className='icon-title'><MdStars /></span></div>
+            <div className='texticon'><p className='title shadow-text'>world</p><span className='icon-title'><MdStars /></span></div>
 
             <div className='title-caption'>
               <p >a little about us</p>

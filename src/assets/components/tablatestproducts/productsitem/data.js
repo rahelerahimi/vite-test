@@ -11,6 +11,7 @@ export const dataProduct=[
           star:'4.5',
           off:'15%',
           hasOff:true,
+         
 
      },
      {

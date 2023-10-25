@@ -28,7 +28,7 @@ const ProductItemReverse = () => {
                   <div className=' capitalize'>
                     <p className=' text-small '>{item.text}</p>
                     <a href=''>
-                  
+               
                       <p className=' text-xl'> {item.name}</p>
                     </a>
                   </div>

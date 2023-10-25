@@ -97,7 +97,7 @@ const Footer = () => {
           <p className='title-footer'>subscribe for news </p>
           <p className=' mt-5'>join us to know news!</p>
           <form action='' className=' relative mt-5'>
-            <input type='text' name='' id='' placeholder='email' />
+            <input type='text' name='email' id='' placeholder='email' />
             <button className='btn-form'>
               <FaArrowRight />
             </button>

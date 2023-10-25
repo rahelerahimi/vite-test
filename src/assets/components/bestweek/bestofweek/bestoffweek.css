@@ -46,13 +46,10 @@
      w-[100%]
      my-2;
 }
-.parent-price {
-  @apply 
-     font-bold;
-}
+
 .parent-price span:nth-of-type(1) {
   @apply
-     text-zinc-500
+     text-zinc-400
      line-through
      mr-2;
 }

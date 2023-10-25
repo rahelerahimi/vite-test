@@ -13,7 +13,7 @@ const Services= () => {
       <div className='Services-box'>
         <p className='sercices-icon'><FaCaravan /></p>
         <p className='Services-title'>fast sending</p>
-        <p p className='Services-text'>send your pack as soon as possible</p>
+        <p  className='Services-text'>send your pack as soon as possible</p>
       </div>
 
 

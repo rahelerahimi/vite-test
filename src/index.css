@@ -130,8 +130,7 @@
        @apply 
        text-black
         text-sm 
-        font-bold
-       
+        font-bold      
 }
 .ss{
        @apply
